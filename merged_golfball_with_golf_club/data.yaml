@@ -1,0 +1,9 @@
+train: /root/YOLO_train/merged_golfball_with_golf_club/train/images/  # 학습 이미지 경로
+val: /root/YOLO_train/merged_golfball_with_golf_club/valid/images/    # 검증 이미지 경로
+test: /root/YOLO_train/merged_golfball_with_golf_club/test/images/   # 테스트 이미지 경로 (선택 사항)
+
+names: # 클래스 이름
+  0: GolfBall       
+  1: ClubHead
+  2: ClubHandle
+  
